@@ -1,13 +1,14 @@
-!/usr/bin/python3
+#!/usr/bin/python3
 # SPDX-FileCopyrightText: 2026 akito hanawa
 # SPDX-License-Identifier: BSD-3-Clause
+
 import sys
 
 x = 0
 for line in sys.stdin:
     try:
-          x += int(line)
-        except ValueError:
-          x += float(line)
- 
+      x += int(line)
+    except ValueError:
+      x += float(line)
+
 print(x)
