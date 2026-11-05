@@ -1,5 +1,5 @@
 # plusコマンド
-![test](https://github.com/<AKito Hanawa>/robosys2026/actions/workflows/test.yml/badge.svg)
+![test](https://github.com/AKito Hanawa/robosys2026/actions/workflows/test.yml/badge.svg)
 ↑ テスト結果を反映したバッジの画像が埋め込まれる
 
 標準入力から読み込んだ数字を足す。
