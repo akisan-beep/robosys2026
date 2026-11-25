@@ -26,8 +26,8 @@ def main():
 
     per_person, remainder = divmod(amount, people)
 
-    print(f"1人あたり: {per_person}円")
-    print(f"余り: {remainder}円")
+    print(per_person)
+    print(remainder)
     return 0
 
 
