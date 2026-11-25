@@ -16,7 +16,7 @@
 ## ライセンス
 - このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布および使用が許可されます。
 - © 2026 Taro Suzuki
-## warikan コマンド
+# warikan コマンド
 
 金額を人数で割り、1人あたりの金額と余りを表示します。
 
@@ -43,5 +43,5 @@ chmod +x warikan
 ```bash
 bash test.bash
 ```
-###ライセンス
+### ライセンス
 © 2026 Akito Hanawa
