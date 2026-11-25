@@ -24,3 +24,13 @@ out=$(echo | ./plus)              #なにも入力しない
 
 [ "${res}" = 0 ] && echo OK
 exit $res
+
+
+# WARIKAN TEST #
+out=$(./warikan 3980 3)
+[ "$?" = 0 ] || ng "$LINENO"
+[ "${out}" = "$(printf '1人あたり: 1326円\n余り: 2円')" ] || ng "$LINENO"
+
+out=$(./warikan 1000 0 2>/dev/null)
+[ "$?" = 1 ] || ng "$LINENO"
+[ "${out}" = "" ] || ng "$LINENO"
