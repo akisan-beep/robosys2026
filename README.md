@@ -41,3 +41,5 @@ chmod +x warikan
 ```bash
 bash test.bash
 ```
+###ライセンス
+© 2026 Akito Hanawa
